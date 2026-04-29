@@ -1,0 +1,16 @@
+export const NavbarAnnouncement = () => {
+    return (
+      <div className="text-sm items-center bg-no-repeat box-border caret-transparent flex basis-[content] leading-[24.5px] min-h-[auto] min-w-[auto] outline-[3px] px-[4.375px] md:text-base md:leading-7 md:px-2.5">
+        <a
+          href="mailto:jason@aunexes.com"
+          title="Available for Fullstack + CMS work - Shopify, WordPress, and integrations."
+          className="relative text-red-300 text-[10.5px] items-center bg-[color(srgb_0.882353_0.686275_0.588235_/_0.1)] bg-no-repeat box-border caret-transparent gap-x-0 flex h-[27.65px] justify-center tracking-[0.2625px] leading-[14.175px] min-h-[auto] min-w-[auto] outline-transparent outline-offset-4 outline outline-2 gap-y-0 text-center underline-offset-[1.65601px] text-nowrap align-bottom w-[27.65px] border pl-[23.5px] pr-0 py-0 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent md:text-sm md:gap-x-5 md:h-auto md:tracking-[0.35px] md:leading-[18.9px] md:gap-y-5 md:underline-offset-[2.20801px] md:w-auto md:pl-8 md:pr-[15px] md:py-[5px] before:accent-auto before:bg-red-300 before:bg-no-repeat before:box-border before:caret-transparent before:text-red-300 before:block before:text-[10.5px] before:not-italic before:normal-nums before:font-normal before:h-1.5 before:tracking-[0.2625px] before:leading-[14.175px] before:list-outside before:list-disc before:mt-[-3px] before:outline-[3px] before:pointer-events-none before:absolute before:text-center before:no-underline before:indent-[0px] before:normal-case before:underline-offset-[1.65601px] before:text-nowrap before:visible before:w-1.5 before:rounded-bl before:rounded-br before:rounded-tl before:rounded-tr before:border-separate before:left-2/4 before:top-2/4 before:font-inter before:md:text-sm before:md:tracking-[0.35px] before:md:leading-[18.9px] before:md:underline-offset-[2.20801px] before:md:left-2.5 after:accent-auto after:bg-red-300 after:bg-no-repeat after:box-border after:caret-transparent after:text-red-300 after:block after:opacity-50 after:text-[10.5px] after:not-italic after:normal-nums after:font-normal after:h-1.5 after:tracking-[0.2625px] after:leading-[14.175px] after:list-outside after:list-disc after:mt-[-3px] after:outline-[3px] after:pointer-events-none after:absolute after:text-center after:no-underline after:indent-[0px] after:normal-case after:underline-offset-[1.65601px] after:text-nowrap after:visible after:w-1.5 after:z-[-1] after:rounded-bl after:rounded-br after:rounded-tl after:rounded-tr after:border-separate after:left-2/4 after:top-2/4 after:font-inter after:md:text-sm after:md:tracking-[0.35px] after:md:leading-[18.9px] after:md:underline-offset-[2.20801px] after:md:left-2.5"
+        >
+          <span className="text-[10.5px] bg-no-repeat box-border caret-transparent hidden tracking-[0.2625px] leading-[14.175px] min-h-0 min-w-0 outline-[3px] underline-offset-[1.65601px] text-nowrap md:text-sm md:block md:tracking-[0.35px] md:leading-[18.9px] md:min-h-[auto] md:min-w-[auto] md:underline-offset-[2.20801px]">
+            Open to projects
+          </span>
+        </a>
+      </div>
+    );
+  };
+  

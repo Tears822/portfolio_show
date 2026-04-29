@@ -13,6 +13,9 @@ export const ContactFormModal = () => {
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  const [submitMessage, setSubmitMessage] = useState("");
 
   useEffect(() => {
     const open = () => setIsOpen(true);
@@ -36,22 +39,55 @@ export const ContactFormModal = () => {
     };
   }, [isOpen]);
 
-  const onSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setSubmitStatus("idle");
+    setSubmitMessage("");
+    setIsSubmitting(true);
 
-    const subject = `Project Inquiry from ${name}`;
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Company: ${company || "N/A"}`,
-      "",
-      "Project details:",
-      message,
-    ].join("\n");
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          company,
+          message,
+        }),
+      });
 
-    window.location.href = `mailto:jason@aunexes.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setIsOpen(false);
+      const body = (await response.json()) as { ok?: boolean; error?: string };
+
+      if (!response.ok || !body.ok) {
+        throw new Error(body.error || "Could not send your message right now.");
+      }
+
+      setSubmitStatus("success");
+      setSubmitMessage("Message sent. I will get back to you soon.");
+      setName("");
+      setEmail("");
+      setCompany("");
+      setMessage("");
+    } catch (error) {
+      setSubmitStatus("error");
+      setSubmitMessage(
+        error instanceof Error ? error.message : "Could not send your message right now.",
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
+  useEffect(() => {
+    if (!isOpen) {
+      setSubmitStatus("idle");
+      setSubmitMessage("");
+      setIsSubmitting(false);
+    }
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -156,12 +192,23 @@ export const ContactFormModal = () => {
               </label>
 
               <div className="flex items-center justify-between pt-1">
-                <p className="text-xs text-white/60">You will send via your email client.</p>
+                <p
+                  className={`text-xs ${
+                    submitStatus === "success"
+                      ? "text-emerald-300"
+                      : submitStatus === "error"
+                        ? "text-rose-300"
+                        : "text-white/60"
+                  }`}
+                >
+                  {submitMessage || "Your message will be delivered directly to my inbox."}
+                </p>
                 <button
                   type="submit"
+                  disabled={isSubmitting}
                   className="rounded-xl border border-violet-200/30 bg-[linear-gradient(180deg,rgba(255,255,255,0.22),rgba(49,46,129,0.7)_40%,rgba(15,23,42,0.95))] px-5 py-2.5 font-geist text-white shadow-[0_14px_28px_rgba(0,0,60,0.45)] transition hover:text-violet-100 hover:shadow-[0_18px_34px_rgba(67,56,202,0.35)]"
                 >
-                  Send Inquiry
+                  {isSubmitting ? "Sending..." : "Send Inquiry"}
                 </button>
               </div>
             </form>

@@ -28,10 +28,11 @@ export const Hero = () => {
         </div>
         <HeroVisuals />
         <p className="text-[15.75px] self-auto bg-no-repeat box-border caret-transparent col-end-auto col-start-auto row-end-auto row-start-auto leading-[27.5625px] max-w-max min-h-[auto] min-w-[auto] outline-[3px] pl-0 font-geist md:text-lg md:self-center md:col-end-6 md:col-start-1 md:row-end-3 md:row-start-2 md:leading-[31.5px] md:pl-10">
-          Fullstack + CMS: deep work on{" "}
-          <strong className="font-medium text-violet-200">Shopify</strong> (Plus, themes, apps, integrations)
-          and <strong className="font-medium text-violet-200">WordPress</strong> (blocks, multisite, headless) plus Java,
-          .NET Core, Azure, and Angular when your roadmap needs custom backends behind either stack.
+          Fullstack + CMS with end-to-end ownership:{" "}
+          <strong className="font-medium text-violet-200">Shopify</strong> and{" "}
+          <strong className="font-medium text-violet-200">WordPress</strong> on the frontend, backed by Java Spring
+          Boot, .NET Core, Node.js services, GraphQL/REST APIs, Azure/AKS infrastructure, CI/CD pipelines, caching, and
+          observability for reliable releases at scale.
         </p>
         <HeroActions />
       </div>

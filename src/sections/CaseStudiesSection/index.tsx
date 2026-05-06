@@ -125,6 +125,76 @@ export const CaseStudiesSection = () => {
             tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
           />
 
+          <CaseStudyCard
+            imageAlt="drinknixie.com storefront"
+            imageSrc={[
+              "/portfolios/drinknixie.com/1.png",
+              "/portfolios/drinknixie.com/2.png",
+              "/portfolios/drinknixie.com/3.png",
+              "/portfolios/drinknixie.com/4.png",
+              "/portfolios/drinknixie.com/5.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://drinknixie.com/"
+            title="Drink Nixie"
+            description="D2C beverage storefront focused on subscription-ready journeys, punchy brand storytelling, and mobile-first purchasing paths."
+            tag1Title="D2C Commerce"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Brand UX"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
+          <CaseStudyCard
+            imageAlt="qualisage.com website"
+            imageSrc={[
+              "/portfolios/qualisage.com/1.png",
+              "/portfolios/qualisage.com/2.png",
+              "/portfolios/qualisage.com/3.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://qualisage.com/"
+            title="Qualisage"
+            description="Professional services website delivery with clear solution framing, lead-oriented page sections, and maintainable content modules."
+            tag1Title="Business Site"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Lead Capture UX"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
+          <CaseStudyCard
+            imageAlt="the-cubehouse.com storefront"
+            imageSrc={[
+              "/portfolios/the-cubehouse.com/1.png",
+              "/portfolios/the-cubehouse.com/2.png",
+              "/portfolios/the-cubehouse.com/3.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://the-cubehouse.com/"
+            title="The Cube House"
+            description="Lifestyle commerce build balancing visual storytelling and conversion-focused product presentation across desktop and mobile views."
+            tag1Title="Lifestyle Retail"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Storefront UI"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
+          <CaseStudyCard
+            imageAlt="thehungryfamily.com website"
+            imageSrc={[
+              "/portfolios/thehungryfamily.com/1.png",
+              "/portfolios/thehungryfamily.com/2.png",
+              "/portfolios/thehungryfamily.com/3.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://thehungryfamily.com/"
+            title="The Hungry Family"
+            description="Content-rich food and lifestyle platform with structured editorial layouts, readable long-form sections, and scalable content updates."
+            tag1Title="Content Platform"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Editorial UX"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
           <CaseStudiesFooter />
         </div>
       </div>

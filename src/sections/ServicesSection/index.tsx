@@ -13,7 +13,12 @@ export const ServicesSection = () => {
           title="Fullstack + CMS (Shopify + WordPress)"
           titleClassName="text-[36.288px] font-medium bg-no-repeat box-border caret-transparent leading-[46.6019px] mt-[-13.125px] max-w-[783.337px] min-h-[auto] min-w-[auto] outline-[3px] break-words scroll-mt-[47.875px] font-geist md:text-[48.8281px] md:leading-[59.9445px] md:mt-[-15px] md:max-w-[1054.35px] md:scroll-mt-[60px]"
           descriptionClassName="text-sm bg-no-repeat box-border caret-transparent leading-[24.5px] max-w-[662.402px] min-h-[auto] min-w-[auto] outline-[3px] mx-auto md:text-base md:leading-7 md:max-w-[757.031px]"
-          description={<>Lead with Shopify and WordPress where content and commerce live, then layer APIs, cloud, and integrations when templates and plugins are not enough.</>}
+          description={
+            <>
+              10+ years shipping commerce and content platforms with hands-on ownership across frontend, backend, cloud,
+              data flow, and delivery operations.
+            </>
+          }
         />
 
         <div className="text-sm bg-no-repeat box-border caret-transparent gap-x-[35px] grid grid-cols-[repeat(auto-fill,minmax(min(320px,100%),1fr))] leading-[24.5px] outline-[3px] gap-y-[35px] mt-[47.875px] md:text-base md:gap-x-[60px] md:grid-cols-[repeat(2,minmax(min(320px,100%),1fr))] md:leading-7 md:gap-y-[60px] md:mt-[60px]">
@@ -24,7 +29,7 @@ export const ServicesSection = () => {
             title="CMS · Shopify + WordPress"
             titleVariant="text-indigo-300"
             titleHref="#"
-            subtitle="Shopify for storefronts, checkout, Plus, and apps; WordPress for marketing, editorial, multisite, and headless content, aligned APIs and integrations across both."
+            subtitle="Shopify for storefronts, checkout, Plus, and apps; WordPress for editorial, multisite, and headless. Unified data models, search, SEO, and publishing flows across both systems."
             listVariant="translate-x-[-682px]"
             itemLinkClassName="text-indigo-300 text-[13.125px] items-center bg-white/10 bg-no-repeat box-border caret-transparent gap-x-[17.5px] inline-flex justify-center tracking-[0.328125px] leading-[17.7188px] outline-transparent outline-offset-4 outline outline-2 gap-y-[17.5px] underline-offset-[2.06754px] text-nowrap border px-[17.5px] py-[8.75px] rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent md:text-base md:gap-x-5 md:tracking-[0.4px] md:leading-[21.6px] md:gap-y-5 md:underline-offset-[2.52344px] md:px-5 md:py-2.5 hover:bg-white/20"
             items={[
@@ -37,8 +42,14 @@ export const ServicesSection = () => {
               { label: "Store Migration", href: "#" },
               { label: "Checkout UX", href: "#" },
               { label: "SEO + Schema", href: "#" },
+              { label: "A/B Test Ready UI", href: "#" },
             ]}
-            description={<>Migrations, redesigns, performance, and governance, whether revenue runs on Shopify or publishing runs on WordPress (often both).</>}
+            description={
+              <>
+                Migrations, redesigns, performance tuning, and governance with maintainable architecture that supports
+                both marketing velocity and commerce reliability.
+              </>
+            }
             iconItemVariant="text-indigo-300"
             iconSrc="https://c.animaapp.com/moj5o9goxZ3OI8/assets/icon-6.svg"
             iconAlt="Icon"
@@ -57,7 +68,7 @@ export const ServicesSection = () => {
             title="Fullstack Systems"
             titleVariant="text-pink-300"
             titleHref="#"
-            subtitle="Custom backends, APIs, and internal tools powering Shopify and WordPress: sync, subscriptions, ERP/OMS, and middleware when the CMS needs a real system behind it."
+            subtitle="Custom backends, APIs, and internal tooling behind Shopify and WordPress: ERP/OMS/CRM sync, subscriptions, identity, automation, and middleware for high-volume operations."
             listVariant="translate-x-[-682px]"
             itemLinkClassName="text-pink-300 text-[13.125px] items-center bg-white/10 bg-no-repeat box-border caret-transparent gap-x-[17.5px] inline-flex justify-center tracking-[0.328125px] leading-[17.7188px] outline-transparent outline-offset-4 outline outline-2 gap-y-[17.5px] underline-offset-[2.06754px] text-nowrap border px-[17.5px] py-[8.75px] rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent md:text-base md:gap-x-5 md:tracking-[0.4px] md:leading-[21.6px] md:gap-y-5 md:underline-offset-[2.52344px] md:px-5 md:py-2.5 hover:bg-white/20"
             items={[
@@ -70,8 +81,14 @@ export const ServicesSection = () => {
               { label: "Redis Caching", href: "#" },
               { label: "Azure / AKS", href: "#" },
               { label: "CI/CD Pipelines", href: "#" },
+              { label: "Monitoring + Alerts", href: "#" },
             ]}
-            description={<>Enterprise-grade architecture so your commerce stack stays fast, observable, and safe to evolve.</>}
+            description={
+              <>
+                Enterprise architecture with performance budgets, security controls, deployment strategy, and
+                observability so teams can ship quickly without risking production stability.
+              </>
+            }
             iconItemVariant="text-pink-300"
             iconSrc="https://c.animaapp.com/moj5o9goxZ3OI8/assets/icon-4.svg"
             iconAlt="Icon"

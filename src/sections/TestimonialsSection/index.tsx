@@ -14,7 +14,12 @@ export const TestimonialsSection = () => {
           eyebrowClassName="text-violet-200 text-sm items-center bg-violet-200/10 bg-no-repeat box-border caret-transparent gap-x-[17.5px] flex justify-center tracking-[0.35px] leading-[18.9px] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[17.5px] border mx-auto px-[13.125px] py-[4.375px] rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent md:gap-x-5 md:gap-y-5 md:px-[15px] md:py-[5px]"
           title="Impact Across Commerce, Content, and Product Teams"
           titleClassName="text-[36.288px] font-medium bg-no-repeat box-border caret-transparent leading-[46.6019px] mt-[-13.125px] min-h-[auto] min-w-[auto] outline-[3px] break-words font-geist md:text-[48.8281px] md:leading-[59.9445px] md:mt-[-15px]"
-          description={<>Deep CMS work - Shopify and WordPress - alongside cloud migrations and global product engineering.</>}
+          description={
+            <>
+              Proven delivery across CMS, fullstack platform engineering, and cloud modernization with measurable
+              outcomes in performance, reliability, and release speed.
+            </>
+          }
           descriptionClassName="text-sm bg-no-repeat box-border caret-transparent leading-[24.5px] max-w-[662.402px] min-h-[auto] min-w-[auto] outline-[3px] mx-auto md:text-base md:leading-7 md:max-w-[757.031px]"
         />
         <div className="text-sm bg-no-repeat box-border caret-transparent gap-x-[26.25px] grid grid-cols-[repeat(1,minmax(min(320px,100%),1fr))] leading-[24.5px] outline-[3px] gap-y-[26.25px] mt-[47.875px] md:text-base md:gap-x-10 md:grid-cols-[repeat(3,minmax(min(320px,100%),1fr))] md:leading-7 md:gap-y-10 md:mt-[60px]">
@@ -27,7 +32,7 @@ export const TestimonialsSection = () => {
             logoAlt="Hongkong Land logo"
           />
           <TestimonialCard
-            quote="Built modern APIs, tooling, and architecture improvements across multiple product lines in a global R&D environment."
+            quote="Built APIs, internal tooling, and platform architecture upgrades across multiple product lines, improving delivery speed and operational stability in a global R&D environment."
             name="RIB Software"
             role="Product Engineer"
             company="iTWO and Graphics Engine"
@@ -35,7 +40,7 @@ export const TestimonialsSection = () => {
             logoAlt="RIB Software logo"
           />
           <TestimonialCard
-            quote="Founded Aunexes to ship Fullstack + CMS (Shopify + WordPress) - themes, apps, editorial stacks, and integrations - with engineering discipline when the build leaves drag-and-drop behind."
+            quote="Founded Aunexes to deliver Fullstack + CMS (Shopify + WordPress), including themes, apps, integrations, and backend services, with production-grade engineering standards."
             name="Aunexes"
             role="Founder"
             company="Commerce & Software Agency"

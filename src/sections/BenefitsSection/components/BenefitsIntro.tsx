@@ -9,8 +9,9 @@ export const BenefitsIntro = () => {
           Shopify + WordPress, Built Like Product Engineering
         </h2>
         <p className="max-w-2xl text-sm leading-relaxed text-white/85 md:text-base md:leading-7">
-          Lead Software Engineer with 10+ years across CMS and enterprise systems: Shopify and WordPress
-          (themes, blocks, multisite, headless), plus cloud and APIs when your content and commerce need to scale together.
+          Lead Software Engineer with 10+ years across CMS and enterprise product teams. I build Shopify and WordPress
+          experiences, then connect them to resilient backend systems with Java, .NET Core, Node.js, cloud services,
+          and integration pipelines to support growth, launches, and long-term maintainability.
         </p>
       </div>
       <a

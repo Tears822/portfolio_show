@@ -9,19 +9,19 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-/** Lead card: combined CMS positioning; other cards support integrations & scale. */
+/** Lead card: AI-first fullstack positioning; CMS appears as supporting capability. */
 const cards = [
   {
-    title: "CMS: Shopify + WordPress",
+    title: "AI Product Engineering",
     icon: Blocks,
     description:
-      "Commerce on Shopify, publishing and marketing on WordPress - custom themes, blocks, apps, and content architecture that stay maintainable.",
+      "Design and build AI-enabled product features with practical automation, strong UX, and maintainable delivery pipelines from prototype to production.",
   },
   {
-    title: "APIs & Integrations",
+    title: "Intelligent APIs & Integrations",
     icon: Network,
     description:
-      "ERP, CRM, OMS, payments - REST, GraphQL, and webhooks connecting Shopify, WordPress, and your internal tools.",
+      "REST, GraphQL, and event-driven integrations connecting LLM workflows, business systems, and internal tools with reliability and observability.",
   },
   {
     title: "Enterprise-Grade Quality",
@@ -33,19 +33,19 @@ const cards = [
     title: "Performance & Reliability",
     icon: GaugeCircle,
     description:
-      "Core Web Vitals, caching, and observability - so campaigns and peak seasons do not break the buying path.",
+      "Latency budgets, caching, monitoring, and alerting so AI and fullstack services remain fast and dependable under real usage.",
   },
   {
-    title: "Fast Delivery",
+    title: "Fast Iteration",
     icon: Rocket,
     description:
-      "Clear milestones for theme launches, migrations, and integration rollouts - shipping often without sacrificing quality.",
+      "Rapid build-test-learn cycles with CI/CD and clear milestones, shipping features often without compromising engineering quality.",
   },
   {
-    title: "Cloud Cost Optimization",
+    title: "CMS as Additional Skill",
     icon: CloudCog,
     description:
-      "Lean infrastructure behind integrations and services - stable APIs and lower waste as you scale traffic.",
+      "Shopify and WordPress support available for projects that need storefront, content, or editorial workflows alongside fullstack AI systems.",
   },
 ] as const;
 

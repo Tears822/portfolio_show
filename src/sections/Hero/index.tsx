@@ -11,15 +11,15 @@ export const Hero = () => {
               href="#services"
               className="text-violet-200 text-[12.25px] items-center bg-violet-200/10 bg-no-repeat box-border caret-transparent gap-x-[17.5px] block justify-center tracking-[0.30625px] leading-[16.5375px] min-h-[auto] min-w-[auto] outline-transparent outline-offset-4 outline outline-2 gap-y-[17.5px] underline-offset-[1.93201px] text-center max-w-[min(100%,20rem)] border px-[13.125px] py-[4.375px] rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent sm:max-w-none sm:text-nowrap md:text-sm md:gap-x-5 md:tracking-[0.35px] md:leading-[18.9px] md:gap-y-5 md:underline-offset-[2.20801px] md:px-[15px] md:py-[5px] hover:bg-violet-200/20"
             >
-              Fullstack + CMS (Shopify + WordPress)
+              Fullstack + AI Engineer
             </a>
              
           </small>
           <h1 className="text-[36.288px] font-medium bg-no-repeat box-border caret-transparent leading-[46.6019px] max-w-[587.503px] min-h-[auto] min-w-[auto] outline-[3px] break-words font-geist md:text-[76.2939px] md:leading-[89.1726px] md:max-w-[1235.76px]">
             {" "}
-            CMS, Commerce &{" "}
+            AI, Fullstack &{" "}
             <br className="text-[36.288px] bg-no-repeat box-border caret-transparent leading-[46.6019px] outline-[3px] break-words md:text-[76.2939px] md:leading-[89.1726px]" />
-            Digital Products That Scale.{" "}
+            Intelligent Products That Scale.{" "}
             <br className="text-[36.288px] bg-no-repeat box-border caret-transparent leading-[46.6019px] outline-[3px] break-words md:text-[76.2939px] md:leading-[89.1726px]" />
             <span className="text-[36.288px] bg-clip-text bg-white bg-[linear-gradient(to_right,rgb(250,175,200)_25%,rgb(175,200,250)_75%)] bg-no-repeat box-border caret-transparent leading-[46.6019px] outline-[3px] break-words md:text-[76.2939px] md:leading-[89.1726px]">
               Built by Jason Liu.
@@ -28,11 +28,9 @@ export const Hero = () => {
         </div>
         <HeroVisuals />
         <p className="text-[15.75px] self-auto bg-no-repeat box-border caret-transparent col-end-auto col-start-auto row-end-auto row-start-auto leading-[27.5625px] max-w-max min-h-[auto] min-w-[auto] outline-[3px] pl-0 font-geist md:text-lg md:self-center md:col-end-6 md:col-start-1 md:row-end-3 md:row-start-2 md:leading-[31.5px] md:pl-10">
-          Fullstack + CMS with end-to-end ownership:{" "}
-          <strong className="font-medium text-violet-200">Shopify</strong> and{" "}
-          <strong className="font-medium text-violet-200">WordPress</strong> on the frontend, backed by Java Spring
-          Boot, .NET Core, Node.js services, GraphQL/REST APIs, Azure/AKS infrastructure, CI/CD pipelines, caching, and
-          observability for reliable releases at scale.
+          Fullstack + AI with end-to-end ownership: AI-assisted workflows, automation pipelines, backend services, and
+          production delivery with Java Spring Boot, .NET Core, Node.js, GraphQL/REST APIs, Azure/AKS, CI/CD, caching,
+          and observability. Shopify and WordPress support project requirements when CMS is part of the roadmap.
         </p>
         <HeroActions />
       </div>

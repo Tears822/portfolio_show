@@ -195,6 +195,44 @@ export const CaseStudiesSection = () => {
             tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
           />
 
+          <CaseStudyCard
+            imageAlt="base.feishu.cn platform screenshots"
+            imageSrc={[
+              "/portfolios/base.feishu.cn/1.png",
+              "/portfolios/base.feishu.cn/2.png",
+              "/portfolios/base.feishu.cn/3.png",
+              "/portfolios/base.feishu.cn/4.png",
+              "/portfolios/base.feishu.cn/5.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://base.feishu.cn/"
+            title="Feishu Base"
+            description="Data-centric workspace experience with structured records, operational dashboards, and scalable team workflows for faster internal execution."
+            tag1Title="Productivity Platform"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Data Workflow UX"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
+          <CaseStudyCard
+            imageAlt="ihuiwa.com storefront screenshots"
+            imageSrc={[
+              "/portfolios/ihuiwa.com/1.png",
+              "/portfolios/ihuiwa.com/2.png",
+              "/portfolios/ihuiwa.com/3.png",
+              "/portfolios/ihuiwa.com/4.png",
+              "/portfolios/ihuiwa.com/5.png",
+            ]}
+            imageSizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 720px) 100vw, (max-width: 1023px) 100vw, 50vw"
+            href="https://ihuiwa.com/"
+            title="iHUIWA"
+            description="Modern e-commerce implementation balancing brand presentation, product discovery, and streamlined conversion flow across desktop and mobile touchpoints."
+            tag1Title="Commerce Build"
+            tag1ClassName="text-[12.25px] bg-pink-300 bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-4 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px]"
+            tag2Title="Responsive Experience"
+            tag2ClassName="relative text-[12.25px] bg-no-repeat box-border caret-transparent leading-[21.4375px] min-h-1 min-w-8 outline-[3px] rounded-[35px] md:text-sm md:leading-[24.5px] md:rounded-[40px] before:accent-auto before:bg-[linear-gradient(to_right,rgb(250,175,200),rgb(175,200,250))] before:bg-no-repeat before:box-border before:caret-transparent before:text-blue-950 before:block before:text-[12.25px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[21.4375px] before:list-outside before:list-none before:outline-[3px] before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:z-[-1] before:rounded-[35px] before:border-separate before:inset-0 before:font-inter before:md:text-sm before:md:leading-[24.5px] before:md:rounded-[40px]"
+          />
+
           <CaseStudiesFooter />
         </div>
       </div>

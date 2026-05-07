@@ -27,11 +27,18 @@ export const Hero = () => {
           </h1>
         </div>
         <HeroVisuals />
-        <p className="text-[15.75px] self-auto bg-no-repeat box-border caret-transparent col-end-auto col-start-auto row-end-auto row-start-auto leading-[27.5625px] max-w-max min-h-[auto] min-w-[auto] outline-[3px] pl-0 font-geist md:text-lg md:self-center md:col-end-6 md:col-start-1 md:row-end-3 md:row-start-2 md:leading-[31.5px] md:pl-10">
-          Fullstack + AI with end-to-end ownership: AI-assisted workflows, automation pipelines, backend services, and
-          production delivery with Java Spring Boot, .NET Core, Node.js, GraphQL/REST APIs, Azure/AKS, CI/CD, caching,
-          and observability. Shopify and WordPress support project requirements when CMS is part of the roadmap.
-        </p>
+        <div className="text-[15.75px] self-auto bg-no-repeat box-border caret-transparent col-end-auto col-start-auto row-end-auto row-start-auto leading-[27.5625px] max-w-max min-h-[auto] min-w-[auto] outline-[3px] pl-0 font-geist md:text-lg md:self-center md:col-end-6 md:col-start-1 md:row-end-3 md:row-start-2 md:leading-[31.5px] md:pl-10">
+          <p>
+            Fullstack + AI with end-to-end ownership from product implementation to stable production delivery.
+          </p>
+          <p className="mt-2 text-violet-100/95 md:mt-3">
+            <strong className="font-medium text-white">Stack:</strong> Java Spring Boot, .NET Core, Node.js,
+            GraphQL/REST APIs, Azure/AKS, CI/CD, caching, and observability.
+          </p>
+          <p className="mt-2 md:mt-3">
+            Shopify and WordPress support projects when CMS is part of the roadmap.
+          </p>
+        </div>
         <HeroActions />
       </div>
     </header>

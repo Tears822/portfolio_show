@@ -1,5 +1,4 @@
 import { NavbarLogo } from "@/sections/Header/components/NavbarLogo";
-import { NavbarAnnouncement } from "@/sections/Header/components/NavbarAnnouncement";
 import { MobileMenu } from "@/sections/Header/components/MobileMenu";
 import { MobileMenuToggle } from "@/sections/Header/components/MobileMenuToggle";
 import { DesktopSignIn } from "@/sections/Header/components/DesktopSignIn";
@@ -10,7 +9,6 @@ export const Navbar = () => {
       <div className="text-sm bg-no-repeat box-border caret-transparent basis-[content] leading-[24.5px] min-h-[auto] min-w-[auto] outline-[3px] px-[4.375px] md:text-base md:leading-7 md:px-2.5">
         <NavbarLogo />
       </div>
-      <NavbarAnnouncement />
       <MobileMenu />
       <MobileMenuToggle />
       <DesktopSignIn />

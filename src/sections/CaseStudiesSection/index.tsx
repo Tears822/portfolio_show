@@ -13,7 +13,7 @@ export const CaseStudiesSection = () => {
         className="pointer-events-none absolute inset-x-0 top-0 z-0 h-52 bg-[linear-gradient(180deg,rgba(2,6,23,0.96)_0%,rgba(15,23,42,0.78)_42%,rgba(15,23,42,0.2)_72%,rgba(15,23,42,0)_100%)] md:h-64"
       />
       <div className="relative z-10 text-sm bg-no-repeat box-border caret-transparent leading-[24.5px] max-w-[min(1645px,100%)] outline-[3px] w-[min(100%_-_35px,min(1645px,100%))] mx-auto md:text-base md:leading-7 md:max-w-[min(1840px,100%)] md:w-[min(100%_-_80px,min(1840px,100%))]">
-        <div className="text-sm bg-no-repeat box-border caret-transparent gap-x-[17.5px] grid grid-cols-[repeat(auto-fill,minmax(min(480px,100%),1fr))] leading-[24.5px] ml-[-13.125px] mr-[-13.125px] outline-[3px] gap-y-[17.5px] md:text-base md:gap-x-10 md:grid-cols-[repeat(2,minmax(min(480px,100%),1fr))] md:leading-7 md:ml-[-30px] md:mr-[-30px] md:gap-y-10">
+        <div className="text-sm bg-no-repeat box-border caret-transparent gap-x-[17.5px] grid grid-cols-1 leading-[24.5px] outline-[3px] gap-y-[17.5px] md:text-base md:gap-x-10 md:grid-cols-[repeat(2,minmax(min(480px,100%),1fr))] md:leading-7 md:ml-[-30px] md:mr-[-30px] md:gap-y-10">
           <SectionHeader
             headerClassName="text-sm items-start bg-no-repeat box-border caret-transparent gap-x-[35px] flex flex-col col-start-auto row-end-2 row-start-1 justify-start leading-[24.5px] min-h-[auto] min-w-[auto] outline-[3px] gap-y-[35px] pt-[26.25px] px-[13.125px] md:text-base md:gap-x-[60px] md:col-start-2 md:leading-7 md:gap-y-[60px] md:pt-10 md:px-[30px]"
             eyebrowText="Project Samples"
@@ -60,7 +60,7 @@ export const CaseStudiesSection = () => {
           />
 
           <CaseStudyCard
-            articleClassName="translate-y-[35px] z-20"
+            articleClassName="md:translate-y-[35px] z-20"
             imageAlt="foodpanda.hk platform screenshots"
             imageSrc={[
               "/portfolios/foodpanda.hk/1.png",
@@ -78,7 +78,7 @@ export const CaseStudiesSection = () => {
           />
 
           <CaseStudyCard
-            articleClassName="translate-y-[35px] z-20 md:translate-y-20"
+            articleClassName="z-20 md:translate-y-20"
             imageAlt="hhp.com.hk commerce site"
             imageSrc={[
               "/portfolios/hhp.com.hk/1.png",

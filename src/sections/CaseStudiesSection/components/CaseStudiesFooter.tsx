@@ -4,8 +4,8 @@ export const CaseStudiesFooter = () => {
   return (
     <footer className="flex flex-col gap-6 px-[13.125px] pt-[26.25px] md:items-end md:px-[30px] md:pt-10">
       <h3 className="font-geist text-3xl md:text-4xl">Want to discuss your project?</h3>
-      <nav aria-label="Projects Navigation" className="overflow-auto md:overflow-visible">
-        <ul className="flex gap-3">
+      <nav aria-label="Projects Navigation" className="overflow-visible">
+        <ul className="flex flex-wrap gap-3">
           <li>
             <a href="mailto:jason@aunexes.com" onClick={openContactModal} className="rounded-full border border-white/20 px-4 py-2 hover:text-violet-200">
               Contact Jason
